@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baby Bliss  - Baby Video Collection</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-blue-50">
+    <!-- Header -->
+    <header class="bg-white shadow-md fixed w-full top-0 z-50">
+        <nav class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center">
+                    <i class="fas fa-baby text-3xl text-pink-400"></i>
+                    <span class="ml-2 text-xl font-bold text-gray-800">Baby Bliss </span>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#" class="text-gray-600 hover:text-pink-400">Home</a>
+                    <a href="#" class="text-gray-600 hover:text-pink-400">Videos</a>
+                    <a href="#" class="text-gray-600 hover:text-pink-400">About</a>
+                    <a href="#" class="text-gray-600 hover:text-pink-400">Contact</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="pt-24 pb-12 bg-gradient-to-r from-blue-100 to-pink-100">
+        <div class="container mx-auto px-6">
+            <div class="text-center">
+                <h1 class="text-4xl md:text-6xl font-bold text-gray-800 mb-6">
+                    Cherish Every Tiny <span class="text-pink-400">Moment</span>
+                </h1>
+                <p class="text-lg text-gray-600 mb-8">
+                    Discover the most adorable baby videos collection for loving parents
+                </p>
+                <button class="bg-pink-400 text-white px-8 py-3 rounded-full hover:bg-pink-500 transition duration-300">
+                    Watch Now
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="py-12">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-8 text-gray-800">Video Categories</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Category Card 1 -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition duration-300">
+                    <div class="p-6">
+                        <i class="fas fa-baby-carriage text-4xl text-blue-400"></i>
+                        <h3 class="text-xl font-semibold mt-4 mb-2">Newborn Moments</h3>
+                        <p class="text-gray-600">Precious early days memories</p>
+                    </div>
+                </div>
+
+                <!-- Category Card 2 -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition duration-300">
+                    <div class="p-6">
+                        <i class="fas fa-walking text-4xl text-pink-400"></i>
+                        <h3 class="text-xl font-semibold mt-4 mb-2">First Steps</h3>
+                        <p class="text-gray-600">Magical walking milestones</p>
+                    </div>
+                </div>
+
+                <!-- Category Card 3 -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition duration-300">
+                    <div class="p-6">
+                        <i class="fas fa-birthday-cake text-4xl text-yellow-400"></i>
+                        <h3 class="text-xl font-semibold mt-4 mb-2">Birthday Specials</h3>
+                        <p class="text-gray-600">Celebrate growth journeys</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Gallery -->
+    <section class="py-12 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-8 text-gray-800">Latest Videos</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Video Card 1 -->
+                <div class="rounded-xl shadow-md overflow-hidden hover:shadow-xl transition duration-300">
+                    <div class="relative">
+                        <img src="https://via.placeholder.com/400x225" alt="Baby video" class="w-full h-48 object-cover">
+                        <div class="absolute bottom-2 right-2 bg-black bg-opacity-50 text-white px-3 py-1 rounded-full text-sm">
+                            4:20
+                        </div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg mb-2">Morning Playtime Fun</h3>
+                        <div class="flex items-center text-gray-500 text-sm">
+                            <i class="fas fa-calendar-alt mr-2"></i>
+                            <span>Posted: 2 days ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Add more video cards here following the same structure -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="py-12 bg-blue-100">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold mb-4">Stay Updated</h2>
+            <p class="text-gray-600 mb-6">Subscribe to get notified about new baby videos</p>
+            <div class="max-w-md mx-auto flex gap-4">
+                <input type="email" placeholder="Enter your email" class="flex-1 px-4 py-2 rounded-full border focus:outline-none focus:ring-2 focus:ring-pink-400">
+                <button class="bg-pink-400 text-white px-6 py-2 rounded-full hover:bg-pink-500 transition duration-300">
+                    Subscribe
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-6">
+            <div class="text-center">
+                <div class="flex justify-center space-x-6 mb-4">
+                    <a href="#" class="hover:text-pink-400"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="hover:text-pink-400"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="hover:text-pink-400"><i class="fab fa-youtube"></i></a>
+                </div>
+                <p class="text-gray-400">&copy; 2023 Baby Bliss . All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
